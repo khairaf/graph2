@@ -124,3 +124,18 @@ cara connect ke mongodb atlas.
 
  name: { type: GraphQLNonNull(GraphQLString) } ---> artinya musti diisi name atau parameter itu, atauga ga akan ke add data barunya.
 
+-----
+
+bagian front end
+akan ada 2 komponen: book list dan add book.
+apollo akan handle query kita. 
+
+GraphQL Apollo client itu yang bertanggung jawab menghubungkan bagian backend dengan frontend nya.
+
+https://www.apollographql.com/docs/react/essentials/get-started
+untuk install apollo client
+npm install apollo-boost react-apollo graphql
+
+dibagian server install sesuatu biar url server bisa diakses oleh bagian client: cors
+npm i cors
+di server/app.js require si cors ini
