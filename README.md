@@ -107,3 +107,20 @@ test 2
     }
   }
 }
+
+kalo muncul error ini ketika ingin connect ke mongodb atlas:
+name: 'MongoNetworkError',   errorLabels: [ 'TransientTransactionError' ],   [Symbol(mongoErrorContextSymbol)]: {} }
+pindah terminal, misal cmdr, ini bisa solved. error tsb hanya temporary, mungkin karena koneksi internet yang kurang baik, atau mungkin emang musti ganti terminal? -_-
+
+cara connect ke mongodb atlas.
+-login akun di cloud.mongodb.com
+-new project, isi nama dll
+-pilih yg free sanboxnya
+-ok ok ok
+-pilih opsi connect,, maka akan muncul cara-cara connectionnya, pilih salah 1
+-kalo pake opsi ke-2, copas mongodb+srv://gqlUser:gqlUser@gql-59zds.mongodb.net/test?retryWrites=true"
+-taro sebagai url di mongoose.connect('url', {})
+-boom
+
+ name: { type: GraphQLNonNull(GraphQLString) } ---> artinya musti diisi name atau parameter itu, atauga ga akan ke add data barunya.
+

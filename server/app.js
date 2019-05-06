@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://gqlUser:gqlUser@gql-59zds.mongodb.net/test?retryWrites=true', { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://gqlUser:gqlUser@gql-59zds.mongodb.net/test?retryWrites=true", { useNewUrlParser: true, }, function(error){console.log(error)});
 mongoose.connection.once('open', () => {
     console.log('sudah connect ke db mongodb atlas');
 });
