@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors());
 
-mongoose.connect("mongodb+srv://gqlUser:gqlUser@gql-59zds.mongodb.net/test?retryWrites=true", { useNewUrlParser: true, }, function(error){console.log(error)});
+mongoose.connect("mongodb+srv://gqlUser:passwordmu@gql-59zds.mongodb.net/test?retryWrites=true", { useNewUrlParser: true, }, function(error){console.log(error)});
 mongoose.connection.once('open', () => {
     console.log('sudah connect ke db mongodb atlas');
 });
