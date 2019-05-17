@@ -118,7 +118,7 @@ cara connect ke mongodb atlas.
 -pilih yg free sanboxnya
 -ok ok ok
 -pilih opsi connect,, maka akan muncul cara-cara connectionnya, pilih salah 1
--kalo pake opsi ke-2, copas mongodb+srv://gqlUser:gqlUser@gql-59zds.mongodb.net/test?retryWrites=true"
+-kalo pake opsi ke-2, copas mongodb+srv://gqlUser:passwordmu@gql-59zds.mongodb.net/test?retryWrites=true"
 -taro sebagai url di mongoose.connect('url', {})
 -boom
 
