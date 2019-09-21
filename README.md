@@ -1,6 +1,6 @@
 # Dokumentasi
 
-### Bagian Front-End
+### Bagian Back-End
 Buat GraphQL server pake express.
 MongoDB untuk store our data using mLab.
 
