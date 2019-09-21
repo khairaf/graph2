@@ -1,5 +1,6 @@
 # Dokumentasi
 
+### Bagian Front-End
 Buat GraphQL server pake express.
 MongoDB untuk store our data using mLab.
 
@@ -144,7 +145,7 @@ pindah terminal, misal cmdr, ini bisa solved. error tsb hanya temporary, mungkin
 
 -----
 
-### bagian front end
+### Bagian Front-End
 akan ada 2 komponen: book list dan add book.
 apollo akan handle query kita. 
 
