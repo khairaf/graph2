@@ -1,4 +1,4 @@
-# Documentasi
+# Dokumentasi
 
 Buat GraphQL server pake express.
 MongoDB untuk store our data using mLab.
